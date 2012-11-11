@@ -10,8 +10,6 @@ public class GuardController {
 	
 	@RequestMapping("/guardForm")
 	public String guardForm(@ModelAttribute Guard formInput, Model model) {
-		System.out.println(formInput.getName());
-		System.out.println(formInput.getAge());
 		
 		model.addAttribute("addedGuard", formInput);
 		
