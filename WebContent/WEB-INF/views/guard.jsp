@@ -5,8 +5,9 @@
 
 <pr:main>
 	<c:choose>
-		<c:when test="${not empty addedGuard.name}">
-			${addedGuard.name}
+		<c:when test="${not empty guard.name and not empty guard.age}">
+			${guard.name}
+			${guard.age}
 		</c:when>
 		<c:otherwise>
 			<form method="POST">

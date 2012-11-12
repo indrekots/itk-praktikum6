@@ -33,5 +33,12 @@
 		<dependency org="javax.servlet" name="jstl" rev="1.2"
 			conf="runtime->default" />
 
+		<dependency org="log4j" name="log4j" rev="1.2.16" conf="runtime->default" />
+
+		<dependency org="org.slf4j" name="slf4j-api" rev="1.6.6"
+			conf="runtime->default" />
+		<dependency org="org.slf4j" name="slf4j-log4j12" rev="1.6.6"
+			conf="runtime->default" />
+
 	</dependencies>
 </ivy-module>
